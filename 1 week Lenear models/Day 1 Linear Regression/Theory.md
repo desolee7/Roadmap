@@ -28,7 +28,7 @@ w = (XᵀX)^(-1) Xᵀy
 - XᵀX должна быть обратимой
 - работает хорошо на небольших данных
 
-**Примеры в Python:**
+**Пример в Python:**
 
 ```python
 # sklearn
@@ -37,6 +37,7 @@ from sklearn.linear_model import LinearRegression
 model = LinearRegression()
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
+```
 
 
 ---
@@ -52,8 +53,10 @@ w := w - η ∇L(w)
 - L(w) — функция потерь
 
 Используется при больших данных
+```python
 # sklearn - стохастический градиентный спуск
 from sklearn.linear_model import SGDRegressor
+```
 
 ---
 
