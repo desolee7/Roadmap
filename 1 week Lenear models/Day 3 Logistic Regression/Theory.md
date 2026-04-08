@@ -9,7 +9,7 @@
 - спам / не спам
 - болен / здоров
 
-![Log Reg](LogReg.png)
+![Log Reg](images/LogReg.png)
 
 ---
 
@@ -25,7 +25,7 @@ z = w₀ + w₁x₁ + ... + wₙxₙ
 
 σ(z) = 1 / (1 + e^{-z})
 
-![Sigmoid](Sigmoid.png)
+![Sigmoid](images/Sigmoid.png)
 
 Итог:
 
@@ -42,7 +42,7 @@ y = σ(z)
 - сжимает значения в диапазон [0, 1]
 - позволяет интерпретировать результат как вероятность
 
-![LinToLog](LinToLog.png)
+![LinToLog]images/(LinToLog.png)
 
 ---
 
