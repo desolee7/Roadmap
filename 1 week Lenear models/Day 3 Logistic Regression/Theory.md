@@ -42,7 +42,7 @@ y = σ(z)
 - сжимает значения в диапазон [0, 1]
 - позволяет интерпретировать результат как вероятность
 
-![LinToLog]images/(LinToLog.png)
+![LinToLog](images/LinToLog.png)
 
 ---
 
